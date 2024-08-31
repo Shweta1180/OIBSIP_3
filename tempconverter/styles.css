@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(142, 154, 204);
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 8px rgb(11, 92, 132);
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
